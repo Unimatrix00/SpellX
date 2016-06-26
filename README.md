@@ -1,0 +1,2 @@
+# SpellX
+Multilingual Spellcheck Tool
