@@ -30,7 +30,7 @@ tknzr = get_tokenizer("en_GB",chunkers=(HTMLChunker,))
 
 # HTMLChunker able to deal with XML perfectly. (same syntax)
 
-file = codecs.open("test.txt", 'r',encoding='latin-1')
+file = codecs.open("SpellX_test.txt", 'r',encoding='latin-1')
 resu = open("test-result.txt", "w")
 for f in file.readlines():
     a = [w for w in tknzr(f)]
