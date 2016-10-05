@@ -1,6 +1,7 @@
 from tkinter import *
 
 class App(Frame):
+    
     def run_script(self):
         sys.stdout = self
         import SpellX_by_Attila_Kardos      # Call my script
@@ -16,12 +17,12 @@ class App(Frame):
     def write(self, txt):
         self.text1.insert(INSERT, txt)
         self.update_idletasks()             # Force the GUI to update
-
+        
     def __init__(self, master=None):
         Frame.__init__(self, master)
         self.pack()
         self.build_widgets()
-        
+              
 
 root = Tk()
 root.title("Spell-X")           # To setup the name of the window
