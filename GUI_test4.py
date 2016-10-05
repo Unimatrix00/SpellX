@@ -3,7 +3,7 @@ from tkinter import *
 class App(Frame):
     def run_script(self):
         sys.stdout = self
-        import SpellX_by_Attila_Kardos
+        import SpellX_by_Attila_Kardos      # Call my script
 
     def build_widgets(self):
         self.text1 = Text(self)
@@ -15,7 +15,7 @@ class App(Frame):
 
     def write(self, txt):
         self.text1.insert(INSERT, txt)
-        self.update_idletasks()
+        self.update_idletasks()             # Force the GUI to update
 
     def __init__(self, master=None):
         Frame.__init__(self, master)
@@ -24,8 +24,8 @@ class App(Frame):
         
 
 root = Tk()
-root.title("Spell-X")
-root.wm_iconbitmap('XX.ico')
+root.title("Spell-X")           # To setup the name of the window
+root.wm_iconbitmap('XX.ico')    # To replace the Tkinter icon
 app = App(master = root)
 app.mainloop()
 
