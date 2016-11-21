@@ -1,0 +1,207 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'SpellX.ui'
+#
+# Created by: PyQt4 UI code generator 4.11.4
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt4 import QtCore, QtGui
+
+try:
+    _fromUtf8 = QtCore.QString.fromUtf8
+except AttributeError:
+    def _fromUtf8(s):
+        return s
+
+try:
+    _encoding = QtGui.QApplication.UnicodeUTF8
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig, _encoding)
+except AttributeError:
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig)
+
+class Ui_SpellX(object):
+    def setupUi(self, SpellX):
+        SpellX.setObjectName(_fromUtf8("SpellX"))
+        SpellX.resize(800, 600)
+        sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Fixed, QtGui.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(SpellX.sizePolicy().hasHeightForWidth())
+        SpellX.setSizePolicy(sizePolicy)
+        SpellX.setMinimumSize(QtCore.QSize(800, 600))
+        SpellX.setMaximumSize(QtCore.QSize(800, 600))
+        SpellX.setBaseSize(QtCore.QSize(800, 600))
+        SpellX.setAutoFillBackground(False)
+        SpellX.setFrameShape(QtGui.QFrame.StyledPanel)
+        SpellX.setFrameShadow(QtGui.QFrame.Raised)
+        self.pushButton = QtGui.QPushButton(SpellX)
+        self.pushButton.setGeometry(QtCore.QRect(710, 560, 75, 23))
+        self.pushButton.setObjectName(_fromUtf8("pushButton"))
+        self.pushButton_2 = QtGui.QPushButton(SpellX)
+        self.pushButton_2.setGeometry(QtCore.QRect(320, 560, 75, 23))
+        self.pushButton_2.setObjectName(_fromUtf8("pushButton_2"))
+        self.label = QtGui.QLabel(SpellX)
+        self.label.setGeometry(QtCore.QRect(60, 0, 231, 21))
+        font = QtGui.QFont()
+        font.setBold(True)
+        font.setWeight(75)
+        self.label.setFont(font)
+        self.label.setObjectName(_fromUtf8("label"))
+        self.label_2 = QtGui.QLabel(SpellX)
+        self.label_2.setGeometry(QtCore.QRect(11, 181, 96, 16))
+        font = QtGui.QFont()
+        font.setBold(True)
+        font.setWeight(75)
+        self.label_2.setFont(font)
+        self.label_2.setObjectName(_fromUtf8("label_2"))
+        self.radioButton = QtGui.QRadioButton(SpellX)
+        self.radioButton.setGeometry(QtCore.QRect(122, 181, 72, 17))
+        self.radioButton.setObjectName(_fromUtf8("radioButton"))
+        self.buttonGroup_2 = QtGui.QButtonGroup(SpellX)
+        self.buttonGroup_2.setObjectName(_fromUtf8("buttonGroup_2"))
+        self.buttonGroup_2.addButton(self.radioButton)
+        self.radioButton_2 = QtGui.QRadioButton(SpellX)
+        self.radioButton_2.setGeometry(QtCore.QRect(200, 181, 72, 17))
+        self.radioButton_2.setObjectName(_fromUtf8("radioButton_2"))
+        self.buttonGroup_2.addButton(self.radioButton_2)
+        self.radioButton_3 = QtGui.QRadioButton(SpellX)
+        self.radioButton_3.setGeometry(QtCore.QRect(122, 204, 60, 17))
+        self.radioButton_3.setObjectName(_fromUtf8("radioButton_3"))
+        self.buttonGroup_2.addButton(self.radioButton_3)
+        self.radioButton_4 = QtGui.QRadioButton(SpellX)
+        self.radioButton_4.setGeometry(QtCore.QRect(200, 204, 56, 17))
+        self.radioButton_4.setObjectName(_fromUtf8("radioButton_4"))
+        self.buttonGroup_2.addButton(self.radioButton_4)
+        self.progressBar = QtGui.QProgressBar(SpellX)
+        self.progressBar.setGeometry(QtCore.QRect(410, 560, 301, 23))
+        self.progressBar.setProperty("value", 24)
+        self.progressBar.setObjectName(_fromUtf8("progressBar"))
+        self.lineEdit = QtGui.QLineEdit(SpellX)
+        self.lineEdit.setGeometry(QtCore.QRect(97, 41, 211, 20))
+        self.lineEdit.setObjectName(_fromUtf8("lineEdit"))
+        self.label_3 = QtGui.QLabel(SpellX)
+        self.label_3.setGeometry(QtCore.QRect(21, 41, 70, 16))
+        self.label_3.setObjectName(_fromUtf8("label_3"))
+        self.label_4 = QtGui.QLabel(SpellX)
+        self.label_4.setGeometry(QtCore.QRect(11, 71, 80, 16))
+        self.label_4.setObjectName(_fromUtf8("label_4"))
+        self.lineEdit_2 = QtGui.QLineEdit(SpellX)
+        self.lineEdit_2.setGeometry(QtCore.QRect(97, 71, 211, 20))
+        self.lineEdit_2.setObjectName(_fromUtf8("lineEdit_2"))
+        self.radioButton_5 = QtGui.QRadioButton(SpellX)
+        self.radioButton_5.setGeometry(QtCore.QRect(33, 130, 91, 18))
+        self.radioButton_5.setObjectName(_fromUtf8("radioButton_5"))
+        self.buttonGroup = QtGui.QButtonGroup(SpellX)
+        self.buttonGroup.setObjectName(_fromUtf8("buttonGroup"))
+        self.buttonGroup.addButton(self.radioButton_5)
+        self.radioButton_6 = QtGui.QRadioButton(SpellX)
+        self.radioButton_6.setGeometry(QtCore.QRect(146, 130, 108, 18))
+        self.radioButton_6.setObjectName(_fromUtf8("radioButton_6"))
+        self.buttonGroup.addButton(self.radioButton_6)
+        self.label_5 = QtGui.QLabel(SpellX)
+        self.label_5.setGeometry(QtCore.QRect(33, 111, 221, 16))
+        font = QtGui.QFont()
+        font.setBold(True)
+        font.setWeight(75)
+        self.label_5.setFont(font)
+        self.label_5.setObjectName(_fromUtf8("label_5"))
+        self.label_6 = QtGui.QLabel(SpellX)
+        self.label_6.setGeometry(QtCore.QRect(350, 0, 441, 21))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Palatino Linotype"))
+        self.label_6.setFont(font)
+        self.label_6.setObjectName(_fromUtf8("label_6"))
+        self.label_7 = QtGui.QLabel(SpellX)
+        self.label_7.setGeometry(QtCore.QRect(130, 20, 91, 16))
+        font = QtGui.QFont()
+        font.setItalic(True)
+        self.label_7.setFont(font)
+        self.label_7.setObjectName(_fromUtf8("label_7"))
+        self.label_8 = QtGui.QLabel(SpellX)
+        self.label_8.setGeometry(QtCore.QRect(10, 230, 291, 41))
+        font = QtGui.QFont()
+        font.setItalic(True)
+        self.label_8.setFont(font)
+        self.label_8.setObjectName(_fromUtf8("label_8"))
+        self.lineEdit_3 = QtGui.QLineEdit(SpellX)
+        self.lineEdit_3.setGeometry(QtCore.QRect(10, 270, 301, 20))
+        self.lineEdit_3.setObjectName(_fromUtf8("lineEdit_3"))
+        self.textBrowser = QtGui.QTextBrowser(SpellX)
+        self.textBrowser.setGeometry(QtCore.QRect(320, 20, 461, 531))
+        self.textBrowser.setVerticalScrollBarPolicy(QtCore.Qt.ScrollBarAlwaysOn)
+        self.textBrowser.setObjectName(_fromUtf8("textBrowser"))
+        self.radioButton_7 = QtGui.QRadioButton(SpellX)
+        self.radioButton_7.setGeometry(QtCore.QRect(11, 204, 105, 17))
+        self.radioButton_7.setObjectName(_fromUtf8("radioButton_7"))
+        self.buttonGroup_2.addButton(self.radioButton_7)
+        self.line = QtGui.QFrame(SpellX)
+        self.line.setGeometry(QtCore.QRect(0, 150, 321, 20))
+        self.line.setFrameShape(QtGui.QFrame.HLine)
+        self.line.setFrameShadow(QtGui.QFrame.Sunken)
+        self.line.setObjectName(_fromUtf8("line"))
+        self.line_2 = QtGui.QFrame(SpellX)
+        self.line_2.setGeometry(QtCore.QRect(0, 90, 321, 20))
+        self.line_2.setFrameShape(QtGui.QFrame.HLine)
+        self.line_2.setFrameShadow(QtGui.QFrame.Sunken)
+        self.line_2.setObjectName(_fromUtf8("line_2"))
+        self.label_9 = QtGui.QLabel(SpellX)
+        self.label_9.setGeometry(QtCore.QRect(20, 320, 281, 161))
+        self.label_9.setObjectName(_fromUtf8("label_9"))
+        self.line_3 = QtGui.QFrame(SpellX)
+        self.line_3.setGeometry(QtCore.QRect(0, 300, 321, 20))
+        self.line_3.setFrameShape(QtGui.QFrame.HLine)
+        self.line_3.setFrameShadow(QtGui.QFrame.Sunken)
+        self.line_3.setObjectName(_fromUtf8("line_3"))
+        self.line_4 = QtGui.QFrame(SpellX)
+        self.line_4.setGeometry(QtCore.QRect(0, 470, 321, 16))
+        self.line_4.setFrameShadow(QtGui.QFrame.Sunken)
+        self.line_4.setMidLineWidth(0)
+        self.line_4.setFrameShape(QtGui.QFrame.HLine)
+        self.line_4.setObjectName(_fromUtf8("line_4"))
+
+        self.retranslateUi(SpellX)
+        QtCore.QMetaObject.connectSlotsByName(SpellX)
+        SpellX.setTabOrder(self.pushButton_2, self.radioButton)
+        SpellX.setTabOrder(self.radioButton, self.radioButton_2)
+        SpellX.setTabOrder(self.radioButton_2, self.radioButton_3)
+        SpellX.setTabOrder(self.radioButton_3, self.radioButton_4)
+        SpellX.setTabOrder(self.radioButton_4, self.pushButton)
+
+    def retranslateUi(self, SpellX):
+        SpellX.setWindowTitle(_translate("SpellX", "SpellX", None))
+        self.pushButton.setText(_translate("SpellX", "Quit", None))
+        self.pushButton_2.setText(_translate("SpellX", "Start", None))
+        self.label.setText(_translate("SpellX", "SpellX -  Multilingual Spellchecking Tool ", None))
+        self.label_2.setText(_translate("SpellX", "Select Language:", None))
+        self.radioButton.setText(_translate("SpellX", "US English", None))
+        self.radioButton_2.setText(_translate("SpellX", "UK English", None))
+        self.radioButton_3.setText(_translate("SpellX", "German", None))
+        self.radioButton_4.setText(_translate("SpellX", "French", None))
+        self.lineEdit.setText(_translate("SpellX", "C:\\source_folder\\read_from_here\\...", None))
+        self.label_3.setText(_translate("SpellX", "LAMS location:", None))
+        self.label_4.setText(_translate("SpellX", "RESULT location:", None))
+        self.lineEdit_2.setText(_translate("SpellX", "C:\\destination_folder\\save_to_here\\...", None))
+        self.radioButton_5.setText(_translate("SpellX", "Spell Checking", None))
+        self.radioButton_6.setText(_translate("SpellX", "Profanity Filtering", None))
+        self.label_5.setText(_translate("SpellX", "Please select the MODE you like to run :", None))
+        self.label_6.setText(_translate("SpellX", "This program is free to use and distribute based on the GNU General Public License.", None))
+        self.label_7.setText(_translate("SpellX", "by Attila Kardos", None))
+        self.label_8.setText(_translate("SpellX", " If you wish to use non-standard dictionaries from the\n"
+" OpenOffice.org projects please provide the location here:", None))
+        self.radioButton_7.setText(_translate("SpellX", "From OpenOffice", None))
+        self.label_9.setText(_translate("SpellX", "Summary: The SpellX will be a multi-lingual spellchecking\n"
+"tool with profanity filter and US – UK English \n"
+"comparing functions. Currently the program support\n"
+"4 languages.\n"
+"•    en_GB: British English\n"
+"•    en_US: American English\n"
+"•    de_DE: German\n"
+"•    fr_FR: French\n"
+"However based on the documentation of the PyEnchant \n"
+"it can use dictionaries from the OpenOffice.org project\n"
+"so the number of supported language are almost unlimited.\n"
+"", None))
+
