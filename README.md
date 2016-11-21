@@ -30,3 +30,7 @@ Implementation plan and tools:
 The Goal: This program is dedicated to simplify and speed up some of the very time consuming Generic tests applied by Sony. The main reason to help the Functional Test team to do more accurate tests. 
 
 Key words: Scalable, User Friendly, Accurate, Fast and Simple.
+
+Python enviroment:
+
+https://sourceforge.net/projects/winpython/files/WinPython_3.4/3.4.3.7/
